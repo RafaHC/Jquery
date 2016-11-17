@@ -9,24 +9,49 @@
 <body>
 		<div class="container">
 		    <h1>Desafio 60 segundos</h1>
-		    <p class="frase">Pessoas que digitam rapidamente, digitam em média 40 palavras por minuto, e você, consegue fazer isto?</p>
+		     <strong><p class="frase">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.   <strong id="tamanho-frase"></strong></p>
+
+		   Copie o máximo de palavras do texto em 60 segundos
 
 			    	
 			    	
 			    	
 		    <ul class="informacoes">
 		       
-		        <li><span id="tempo-dig">60</span> segundos</li>
+		        <li><span id="tempo-dig">5</span> segundos</li>
 		    </ul>
 
-		    <textarea class="campo-dig" rows="8" cols="40"></textarea>
+		    <textarea class="campo-dig" rows="8" cols="40" style="height:110px;"></textarea>
 		    <input type="button" value="Reniciar" id="reniciar">
 		    <ul>
 		    	<li><span id="contador-caracteres"></span></li>
 		    	<li><span id="contador-palavras"></span></li>
 		    </ul>
+		    </strong>
 		 </div>
-
+		 <div>
+			 <section class="placar">
+	   		 <h3 class="center">Placar</h3>
+			    <table class="centered bordered">
+			        <thead>
+			            <tr>
+			                <th>Usuário</th>
+			                <th>No. de palavras</th>
+			                <th>Remover</th>
+			            </tr>
+			        </thead>
+			        <tbody>
+			            <tr>
+			            	<td>Douglas</td>
+			            	<td>20</td>
+			            	<td>
+			            		<a href="#" class="botao-remover"><i class="small material-icons">delete</i></a>
+			            	</td>
+			            </tr>
+			        </tbody>
+			    </table>
+			</section>
+		</div>
      <script src="js/jquery.js"></script>
      <script src="js/main.js"></script>
 </body>
